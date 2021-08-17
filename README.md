@@ -30,8 +30,8 @@ hd-wallet-derived was cloned into the wallet folder and php installed
 In GitBash as an administrator, in Wallet folder,  Wallet, HP_Wallet-derive was firstly then  linked created to allow the code to run as -derive. (Images 1 and 2)
 
 
-![image 1](/Picture1.png)
-![image 2](/Picture2.png)
+![image 1](Images/Picture1.png)
+![image 2](Images/Picture2.png)
 
 ## Wallet.py
 
