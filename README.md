@@ -46,14 +46,14 @@ Coins to be purchased, in this case BTC, EThereum and BTCTEST are contained with
 
 Json was installed and used to format the generated keys 
 
-![image 3](/Picture3.png)
+![image 3](Images/Picture3.png)
 
 ## Dering Keys in the model
 
 A file derive wallets was created using ./derive ("shortcut" created previously), using the input mnemonic code, and 3 coins.
 In json format Ethereum and BTCTEST wallets containing address, private and public keys (Image 4)
 
-![image 4](/Picture4.png)
+![image 4](Images/Picture4.png)
 
 Account for the 2 coins are created from Private keys.
 Using create_tx function a crypto transaction is created for BTC suing Bit and Ethereum using Web3. Output parameters include
@@ -65,8 +65,8 @@ Using create_tx function a crypto transaction is created for BTC suing Bit and E
 The final step is to create the raw transaction using send_tx which works in combination with create_tx with the same coin, account, to and from parameters
 The transaction is signed and sent/broadcast to the appropriate API.(Images 5 and 6).
 
-![image 5](/Picture5.png)
-![image 6](/Picture6.png)
+![image 5](Images/Picture5.png)
+![image 6](Images/Picture6.png)
 
 
 ## Transactions
@@ -76,5 +76,5 @@ Running the code from wallet import *, in a Command window in Wallet allows to s
 ### Bitcoin Testnet
 An amount of 0.001 BTC was successfully funded into BTCTEST using the new wallet and testnet faucet https://testnet-faucet.mempool.co/ (image 7) and confirmed in BTC bitaops https://tbtc.bitaps.com/ (image 8)
 
-![image 7](/Picture7.png)
-![image 8](/Picture8.png)
+![image 7](Images/Picture7.png)
+![image 8](Images/Picture8.png)
